@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>课程表</title>
+	</head>
+	<body>
+		<!-- table是表格的外边界
+			tr是定义了一行
+			td是定义了单元格-->
+		<!-- border代表着表格的边框的宽度
+		 cellspacing代表着表格之间的间距
+		 cellpadding文字和外表格之间的距离-->
+		<table border="3" cellspacing="" cellpadding="" width="500px" align="center">
+			<!-- <tr><th>Header</th></tr> -->
+			<caption>
+				<h3>课程表</h3>
+			</caption>
+			<tr>
+				<th colspan="2" align="center">\</th>
+				<!-- <td></td> -->
+				<th>一</th>
+				<th>二</th>
+				<th>三</th>
+				<th>四</th>
+				<th>五</th>
+			</tr>
+			<tr align="center">
+				<td rowspan="4" align="center">上午</td>
+				<td>1</td>
+				<td>
+					<img src="img/英语.png" ><br>
+					英语
+				</td>
+				<td>
+					<img src="img/语文.png" ><br>
+					语文
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>2</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>4</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="7" align="center">午休</td>
+			</tr>
+			<tr>
+				<td rowspan="3">下午</td>
+				<td>1</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>2</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<!-- <td></td> -->
+				<td>3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>
