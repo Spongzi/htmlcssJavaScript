@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>调查小问卷</title>
+	</head>
+	<body>
+		<!-- <h3>调查小问卷</h3> -->
+		<!-- <fieldset id="">是表单分组功能 -->
+		<!-- legend是为fieldset标签定义标题 -->
+		<fieldset id="" style="width: 26%;">
+			<legend>
+				<h3>调查小问卷</h3>
+			</legend>
+
+
+
+
+
+			<!-- #表示当前网页 -->
+			<form action="#" method="get">
+				<p>
+					<!-- name里的文字可以是字母，数字，下划线，中划线不能包含其他特殊字符和空格 -->
+					<!-- value是定义一个默认值，在没有任何输入的情况下可以显示的一个样例 -->
+					<!-- placeholder是一个占位符，输入文字的时候文字消失 -->
+					姓名<input type="text" name="username" placeholder="admin" />
+				</p>
+				<p>
+					密码<input type="password" name="password" />
+				</p>
+				<!-- 单选按扭radio，只有当名字一样的时候才会出互斥的效果 -->
+				<!-- checked默认选中，如果当两个都有checked的时候，会默认选中下面的那一个 -->
+				<p>性别<input type="radio" name="gender" value="1" checked="checked" />男
+					<input type="radio" name="gender" value="0" checked="checked" />女
+				</p>
+				<p>
+					<!-- 多选按钮checkbox复选框，每个name相同表达多选概念 -->
+					爱好
+					<input type="checkbox" name="hobby" value="read" />看书
+					<input type="checkbox" name="hobby" value="game" />游戏
+					<input type="checkbox" name="hobby" value="run" />跑步
+				</p>
+				<p>
+					<input type="file" name="" id="" value="" />
+				</p>
+				<p>
+					<input type="image" src="img/传统.png" title="按钮" />
+				</p>
+				<p>生日
+					<input type="date" />
+				</p>
+				<p>
+					<!-- 隐藏按键 -->
+					<input type="hidden" name="token" id="" value="itsishu" />
+				</p>
+				<p>
+					所在地
+					<!-- multiple可以选中多个选项size=n可以显示n个选项selected可以默认选中某个选项 -->
+					<select name="provice" multiple="multiple">
+						<option value="bj" selected="selected">北京市</option>
+						<option value="sh">上海市</option>
+						<option value="gz">广州市</option>
+						<option value="hb">淮北市</option>
+
+					</select>
+				</p>
+
+				<p>
+					<textarea name="profile" rows="10" cols="30" placeholder="我的爱好还有">
+				</textarea>
+				</p>
+				<input type="button" value="普通按钮" />
+				<input type="reset" value="重置" />
+				<input type="submit" value="提交" />
+			</form>
+		</fieldset>
+
+
+	</body>
+</html>
